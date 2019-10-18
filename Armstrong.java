@@ -1,5 +1,9 @@
 /*
-
+ * This program finds Whether Entered number is Armstrong number or not?
+ * https://www.hackerrank.com/contests/code-bloodedcoding-monopoly/challenges/easy-1-1-3
+ * Mail :- yashparmar414@gmail.com
+ * LinkedIn :- https://www.linkedin.com/in/yash-parmar-3aa06a195/
+*/
 import java.io.*;
 import java.util.*;
 
