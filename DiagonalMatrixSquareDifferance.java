@@ -1,8 +1,8 @@
-//https://www.hackerrank.com/challenges/diagonal-difference/problem
-/*This program finds the Difference between addition of two diagonals in square matrix*/
 /*
-Mail :- yashparmar414@gmail.com
-LinkedIN :- https://www.linkedin.com/in/yash-parmar-3aa06a195/
+ * This program finds the Difference between addition of two diagonals in square matrix
+ * https://www.hackerrank.com/challenges/diagonal-difference/problem
+ * Mail :- yashparmar414@gmail.com
+ * LinkedIN :- https://www.linkedin.com/in/yash-parmar-3aa06a195/
 */
 
 import java.io.*;
