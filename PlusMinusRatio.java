@@ -1,5 +1,6 @@
 /*
- * This program finds total number of positive elements in array, negative numbers in array, zeros in narray then it finds the probability by dividing each count by array size
+ * This program finds total number of positive elements in array, negative numbers in array, zeros in array then it finds the
+   probability by dividing each count by array size
  * https://www.hackerrank.com/challenges/plus-minus/problem
  * Mail :- yashparmar414@gmail.com
  * LinkedIn :- https://www.linkedin.com/in/yash-parmar-3aa06a195/
