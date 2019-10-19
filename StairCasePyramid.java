@@ -1,15 +1,13 @@
 /*
  * This program prints the pyramid of right-aligned-staircase
- * https://www.hackerrank.com/challenges/plus-minus/problem
+ * https://www.hackerrank.com/challenges/staircase/problem
  * Mail :- yashparmar414@gmail.com
  * LinkedIn :- https://www.linkedin.com/in/yash-parmar-3aa06a195/
  * Output example:
           #
-		 ##
-		###
-	   ####
-	  #####
-	 ######
+         ##
+	###
+       ####
 */
 
 
