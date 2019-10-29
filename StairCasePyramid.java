@@ -12,7 +12,6 @@
        ####
 */
 
-
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -29,17 +28,11 @@ public class StairCasePyramid {
         {
             int j;
             for(j=0;j<i;j++)
-            {
                 System.out.print(" ");
-            }
             for(int k=j;k<n;k++)
-            {
                 System.out.print("#");
-            }
             System.out.println();
         }
-
-
     }
 
     private static final Scanner scanner = new Scanner(System.in);
@@ -47,9 +40,7 @@ public class StairCasePyramid {
     public static void main(String[] args) {
         int n = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-
         staircase(n);
-
         scanner.close();
     }
 }
