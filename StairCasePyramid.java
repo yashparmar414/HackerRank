@@ -3,6 +3,8 @@
  * https://www.hackerrank.com/challenges/staircase/problem
  * Mail :- yashparmar414@gmail.com
  * LinkedIn :- https://www.linkedin.com/in/yash-parmar-3aa06a195/
+ * Hackerrank :- https://www.hackerrank.com/yashparmar414/
+ * GitHub :- https://github.com/yashparmar414/
  * Output example:
           #
          ##
