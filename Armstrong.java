@@ -33,7 +33,6 @@ public class Armstrong {
         {
             temp=tempN%10;
             temp=(int)(Math.pow(temp,digits));
-            //System.out.println(temp);
             cube=cube+temp; 
             tempN=tempN/10;
         }
