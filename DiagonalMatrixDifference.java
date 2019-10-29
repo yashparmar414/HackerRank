@@ -16,7 +16,6 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 class Result {
-
     /*
      * Complete the 'diagonalDifference' function below.
      *
@@ -25,28 +24,13 @@ class Result {
      */
 
     public static int diagonalDifference(List<List<Integer>> arr, int n) {
-    // Write your code here
         int sum1=0,sum2=0;
-        int k=(n-1);
-        for(int i=0;i<n;i++)
+        for(int i=0,j=(n-1);i<n;i++,j--)
         {
-            for(int j=0;j<n;j++)
-            {
-                if(i==j)
-                {
-                    List<Integer> l1=arr.get(i);
-                    sum1=sum1+l1.get(i);
-                }
-                if(i+j==(n-1) && k>=0)
-                {
-                    List<Integer> l1=arr.get(i);
-                    sum2+=l1.get(j);
-                    k--;
-                }
-            }
+			sum1=sum1+((arr.get(i)).get(i));
+            sum2=sum2+((arr.get(i)).get(j));
         }
-        int result=Math.abs(sum1-sum2);
-        return result;
+        return (Math.abs(sum1-sum2));
     }
 }
 
@@ -64,9 +48,7 @@ public class DiagonalMatrixDifference{
             }
             arr.add(arrRowItems);
         }
-
         int result = Result.diagonalDifference(arr,n);
-
         System.out.println(String.valueOf(result));
     }
 }
