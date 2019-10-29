@@ -3,6 +3,8 @@
  * https://www.hackerrank.com/challenges/diagonal-difference/problem
  * Mail :- yashparmar414@gmail.com
  * LinkedIn :- https://www.linkedin.com/in/yash-parmar-3aa06a195/
+ * Hackerrank :- https://www.hackerrank.com/yashparmar414/
+ * GitHub :- https://github.com/yashparmar414/
 */
 
 import java.io.*;
@@ -55,7 +57,7 @@ class Result {
     }
 }
 
-public class DiagonalMatrixSquareDifference {
+public class DiagonalSquareMatrixDifference {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
