@@ -36,18 +36,12 @@ class Result {
                 if(i==j)
                 {
                     List<Integer> l1=arr.get(i);
-                    System.out.println(l1);    
-                    System.out.println(l1.get(i));
                     sum1=sum1+l1.get(i);
-                    System.out.println(sum1);
                 }
                 if(i+j==(n-1) && k>=0)
                 {
                     List<Integer> l1=arr.get(i);
-                    System.out.println(l1);    
-                    System.out.println(l1.get(j));
                     sum2+=l1.get(j);
-                    System.out.println(sum2);
                     k--;
                 }
             }
@@ -57,7 +51,7 @@ class Result {
     }
 }
 
-public class DiagonalSquareMatrixDifference {
+public class DiagonalSquareMatrixDifference{
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
