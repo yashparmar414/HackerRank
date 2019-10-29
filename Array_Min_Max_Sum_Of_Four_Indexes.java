@@ -20,18 +20,15 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Array_Min_Max_Sum_Of_Four_Indexes {
+public class ArrayMinMaxSum{
 
     // Complete the miniMaxSum function below.
     static void miniMaxSum(int[] arr) {
         long sum=0;
         Arrays.sort(arr);
         for(int i:arr)
-        {
-            sum+=i;
-        }
+		sum+=i;
         System.out.println((sum-arr[4])+" "+(sum-arr[0]));
-
     }
 
     private static final Scanner scanner = new Scanner(System.in);
@@ -46,9 +43,7 @@ public class Array_Min_Max_Sum_Of_Four_Indexes {
             int arrItem = Integer.parseInt(arrItems[i]);
             arr[i] = arrItem;
         }
-
         miniMaxSum(arr);
-
         scanner.close();
     }
 }
