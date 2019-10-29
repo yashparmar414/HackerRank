@@ -14,7 +14,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class BirthdayCakeCandles {
+public class BirthdayCakeCandles1 {
 
     // Complete the birthdayCakeCandles function below.
     static int birthdayCakeCandles(int[] ar) {
