@@ -3,11 +3,13 @@
  * https://www.hackerrank.com/challenges/mini-max-sum/problem
  * Mail :- yashparmar414@gmail.com
  * LinkedIn :- https://www.linkedin.com/in/yash-parmar-3aa06a195/
+ * Hackerrank :- https://www.hackerrank.com/yashparmar414/
+ * GitHub :- https://github.com/yashparmar414/
  * Example:
         n=5
-		n-1=4 elems should be added only
-		finding Maximum on addition of 4 elements
-		finding Minimum on addition of 4 elements		
+	n-1=4 elems should be added only
+	finding Maximum on addition of 4 elements
+	finding Minimum on addition of 4 elements		
 */
 
 import java.io.*;
