@@ -37,6 +37,7 @@ public class VeryBigSum {
             ar[i] = scanner.nextLong();
             
         long result = aVeryBigSum(ar);
+        System.out.println(String.valueOf(result));
         scanner.close();
     }
 }
