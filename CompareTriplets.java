@@ -30,38 +30,28 @@ public class CompareTriplets {
         }
         return result;
     }
-
-    public static void main(String[] args) throws IOException {
+    public static Scanner scanner = new Scanner(System.in);
     
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH"))); 
-        String[] aItems = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
-        
+    public static void main(String[] args) throws IOException {
+   
         List<Integer> a = new ArrayList<>();
         for (int i = 0; i < 3; i++) {
-            int aItem = Integer.parseInt(aItems[i]);
+            int aItem = scanner.nextInt();
             a.add(aItem);
         }
         
-        String[] bItems = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
-        
         List<Integer> b = new ArrayList<>();
-        
         for (int i = 0; i < 3; i++) {
-            int bItem = Integer.parseInt(bItems[i]);
+            int bItem = scanner.nextInt();
             b.add(bItem);
         }
         
         List<Integer> result = compareTriplets(a, b);
-        
         for (int i = 0; i < result.size(); i++) {
-            bufferedWriter.write(String.valueOf(result.get(i)));
+            System.out.print(String.valueOf(result.get(i)));
             if (i != result.size() - 1) {
-                bufferedWriter.write(" ");
+                System.out.print(" ");
             }
         }
-        bufferedWriter.newLine();
-        bufferedReader.close();
-        bufferedWriter.close();
     }
 }
