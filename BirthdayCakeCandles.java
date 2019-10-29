@@ -1,3 +1,11 @@
+/*
+ * This program finds the count of maximum value in array
+ * https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+ * Mail :- yashparmar414@gmail.com
+ * LinkedIn :- https://www.linkedin.com/in/yash-parmar-3aa06a195/
+ * Hackerrank :- https://www.hackerrank.com/yashparmar414/
+ * GitHub :- https://github.com/yashparmar414/
+*/
 import java.io.*;
 import java.math.*;
 import java.security.*;
