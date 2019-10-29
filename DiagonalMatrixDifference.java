@@ -51,7 +51,7 @@ class Result {
 }
 
 public class DiagonalMatrixDifference{
-    pubic static Scanner scanner = new Scanner(System.in);
+    public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) throws IOException {
         int n = scanner.nextInt();
         List<List<Integer>> arr = new ArrayList<>();
