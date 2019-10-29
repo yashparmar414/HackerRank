@@ -51,33 +51,22 @@ class Result {
 }
 
 public class DiagonalMatrixDifference{
+    pubic static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
-
-        int n = Integer.parseInt(bufferedReader.readLine().trim());
-
+        int n = scanner.nextInt();
         List<List<Integer>> arr = new ArrayList<>();
 
         for (int i = 0; i < n; i++) {
-            String[] arrRowTempItems = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
-
             List<Integer> arrRowItems = new ArrayList<>();
-
             for (int j = 0; j < n; j++) {
-                int arrItem = Integer.parseInt(arrRowTempItems[j]);
+                int arrItem = scanner.nextInt();
                 arrRowItems.add(arrItem);
             }
-
             arr.add(arrRowItems);
         }
 
         int result = Result.diagonalDifference(arr,n);
 
-        bufferedWriter.write(String.valueOf(result));
-        bufferedWriter.newLine();
-
-        bufferedReader.close();
-        bufferedWriter.close();
+        System.out.println(String.valueOf(result));
     }
 }
