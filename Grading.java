@@ -15,24 +15,24 @@ import java.util.*;
 public class Grading {
 
 	public static List<Integer> gradingStudents(List<Integer> grades) {
-        for(int i=0;i<grades.size();i++)
-        {
-            int num=grades.get(i);
-            if(num>=38)
-		num = ((num%5)>=3 && (num%5)<=4) ? grades.set(i,(num+(5-(num%5)))):num;
-        }
-        return grades;
-    }
+        	for(int i=0;i<grades.size();i++)
+        	{
+            		int num=grades.get(i);
+            		if(num>=38)
+				num = ((num%5)>=3 && (num%5)<=4) ? grades.set(i,(num+(5-(num%5)))):num;
+        	}	
+        	return grades;
+    	}
 	public static Scanner sc=new Scanner(System.in);
-    public static void main(String[] args) throws IOException {
-        int gradesCount = sc.nextInt();
-        List<Integer> grades = new ArrayList<Integer>();
+    	public static void main(String[] args) throws IOException {
+        	int gradesCount = sc.nextInt();
+        	List<Integer> grades = new ArrayList<Integer>();
 		for(int i=0;i<gradesCount;i++)
 		{
 			int num=sc.nextInt();
 			grades.add(num);
 		}
-        List<Integer> result = gradingStudents(grades);
+        	List<Integer> result = gradingStudents(grades);
 		for(int i:result)
 			System.out.println(i);
        }
