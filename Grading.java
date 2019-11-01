@@ -19,7 +19,7 @@ public class Grading {
         {
             int num=grades.get(i);
             if(num>=38)
-				num = ((num%5)>=3 && (num%5)<=4) ? grades.set(i,(num+(5-(num%5)))):num;
+		num = ((num%5)>=3 && (num%5)<=4) ? grades.set(i,(num+(5-(num%5)))):num;
         }
         return grades;
     }
