@@ -2,7 +2,7 @@
  * Description is quite large, read problem statement from following site :  
  * https://www.hackerrank.com/challenges/apple-and-orange/problem
  * Mail :- yashparmar414@gmail.com
- * LinkedIn :- https://www.linkedin.com/in/yash-parmar-3aa06a195/
+ * LinkedIn :- https://www.linkedin.com/in/yashparmar414/
  * Hackerrank :- https://www.hackerrank.com/yashparmar414/
  * GitHub :- https://github.com/yashparmar414/
 */
