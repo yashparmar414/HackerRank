@@ -1,4 +1,10 @@
-
+/*  
+ * https://www.hackerrank.com/challenges/kangaroo/problem
+ * Mail :- yashparmar414@gmail.com
+ * LinkedIn :- https://www.linkedin.com/in/yashparmar414/
+ * Hackerrank :- https://www.hackerrank.com/yashparmar414/
+ * GitHub :- https://github.com/yashparmar414/
+*/
 
 
 #include <bits/stdc++.h>
