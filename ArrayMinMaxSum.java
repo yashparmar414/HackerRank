@@ -2,7 +2,7 @@
  * This program prints Minimum and maximum addition of n-1 elements in array of n elements
  * https://www.hackerrank.com/challenges/mini-max-sum/problem
  * Mail :- yashparmar414@gmail.com
- * LinkedIn :- https://www.linkedin.com/in/yash-parmar-3aa06a195/
+ * LinkedIn :- https://www.linkedin.com/in/yashparmar414/
  * Hackerrank :- https://www.hackerrank.com/yashparmar414/
  * GitHub :- https://github.com/yashparmar414/
  * Example:
