@@ -1,0 +1,43 @@
+#include<iostream>
+#include<algorithm>
+#include<array>
+#include<math.h>
+#include<bits/stdc++.h>
+#define ll long long int
+
+using namespace std;
+int main() {
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	ll t;
+	cin >> t;
+	while (t--) {
+		string str, subStr, tempStr;
+		size_t firstOccurance, lastOccurance;
+		cin >> str >> subStr;
+
+		//removing character characters from str which are present in substr(for no repetition)
+		for (ll i = 0; i < (ll)subStr.size(); ++i)
+			str.erase(str.find(subStr[i]), 1);
+		
+		sort(str.begin(), str.end());	
+		tempStr = str + subStr[0];		
+		sort(tempStr.begin(), tempStr.end());	
+
+		//checking whether first character of subStr present in str (is there any extra character even after erasing)
+		if (str.find(subStr[0]) != string::npos) {
+			firstOccurance = tempStr.find(subStr[0]);
+			lastOccurance = tempStr.find_last_of(subStr[0]);
+
+			cout << min(tempStr.substr(0, firstOccurance) + subStr + tempStr.substr(firstOccurance + 1), tempStr.substr(0, lastOccurance) + subStr + tempStr.substr(lastOccurance + 1)) << endl;
+		}
+		else {
+			firstOccurance = tempStr.find(subStr[0]);
+			cout << tempStr.substr(0, firstOccurance) + subStr + tempStr.substr(firstOccurance + 1) << endl;
+		}
+	}
+}
